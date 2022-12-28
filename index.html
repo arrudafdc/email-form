@@ -11,14 +11,14 @@
     <section>
         <h2>CONTATO</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
-            <input type="text" name="name" placeholder="Nome">
-            <input type="email" name="email" placeholder="Email">
-            <textarea name="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" cols="30" rows="5" placeholder="Sua Mensagem" required></textarea>
             <button type="submit">ENVIAR</button>
-
             <input type="hidden" name="accessKey" value="c904481f-87ce-47eb-9024-794ef0148eb1">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/success.html">
         </form>
     </section>
+    
 </body>
 </html>
